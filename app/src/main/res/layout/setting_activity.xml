@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.svitlanamozharovska.ticktacktoe.SettingActivity"
+    android:id="@+id/constraintLayout"
+    android:background="@color/colorWhite">
+
+    <TextView
+        android:id="@+id/settingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/abril_fatfa"
+        android:text="Setting"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="496dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@null"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.829">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:baselineAligned="false"
+            android:drawableEnd="@drawable/cross"
+            android:onClick="firstButton"
+            android:textAlignment="textStart"
+            android:textSize="28sp"
+            android:background="@color/colorWhite"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="firstButton"
+            android:drawableEnd="@drawable/crosszero1"
+            android:background="@drawable/bckgrnd3"/>
+
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="firstButton"
+            android:drawableEnd="@drawable/cross2"
+            android:background="@drawable/bckgrnd1" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="firstButton"
+            android:drawableEnd="@drawable/crosszero2"
+            android:background="@drawable/bckgrnd2"/>
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="firstButton"
+            android:drawableEnd="@drawable/crosszero1"
+            android:background="@drawable/bckgrnd2"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
