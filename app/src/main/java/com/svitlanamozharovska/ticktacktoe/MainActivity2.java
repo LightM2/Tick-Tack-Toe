@@ -22,7 +22,6 @@ public class MainActivity2 extends AppCompatActivity {
     AlertDialog.Builder ad;
     Context context;
     int counterClicks = 1;
-//    int background = R.color.colorWhite;
     int[] field = {0, 0, 0,
                 0, 0, 0,
                 0, 0, 0};
